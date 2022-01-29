@@ -1,0 +1,56 @@
+#top {
+    border: 1px solid black;
+    padding: 25px;
+    background: url("https://i.ibb.co/M8nng0W/background-1.jpg");
+    background-repeat: round;
+    text-align: center;
+    text-decoration: aqua;
+    text-shadow: 100ch;
+  }
+
+  h1 {
+    color: #b91f1f;
+    font-family: Helvetica, 'Open Sans', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    }
+
+#button{
+    text-align: center;
+    font-size: 60px;
+    }
+
+#sided {
+    font-size: 40px;
+}
+
+#header {
+    border: 1px solid black;
+    padding: 50px;
+    background: url("https://i.ibb.co/M8nng0W/background-1.jpg");
+    background-repeat: round;
+    text-align: center;
+    text-decoration: aqua;
+    text-shadow: 100ch;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
