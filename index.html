@@ -20,7 +20,8 @@
 <head>
     <link rel="stylesheet" href="styles.css">
     <script src="dice.js"></script>
-    </head>
+    <script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
 
 <body>
     <div id="header">
@@ -32,35 +33,29 @@
               <h2>Player 1</h2>
               <input id="dice" type="text" value="" size="5" disabled><br><br>
 
- 
-              
+
+
 
             </div>
-            
+
             <div class="column">
               <h2>Instructions</h2>
               <p>The player who rolls the higher number will win! Click the button to roll both dice and see who wins!</p>
-              <button type="button" onclick="RollSixSidedDice()" onclick="RollSixSidedDice1()">Roll Dice</button><br><br>
-              
+              <button type="button" onclick="RollSixSidedDice(); Winner();">Roll Dice</button><br><br>
+
             </div>
-            
+
             <div class="column">
               <h2>Player 2</h2>
               <input id="dice1" type="text" value="" size="5" disabled><br><br>
- 
+
 
             </div>
 
 
-<!--
-    <div id= "button">
-      <button type="button" onclick="RollSixSidedDice()">Roll Dice</button><br><br>
-    </div>
-    <div id= "sided">
-        Six Sided Dice: <input id="dice" type="text" value="" size="5" disabled><br><br>
-    </div>
--->
 
 
-</body>
+
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6d5df8067ccf2913',m:'oVwEVHHGzMoFGhjRx8Ga6PrfCkKty3lA8MnS7XEG2Tg-1643579981-0-AUmSyxErRwVxZwr+s8V2SOfnVFzQMQmRC7spLropvKd7qB6NBewdZZiTWpw6BdHzoifscbuytLCppLpd4AeV8CJIfgN2F4IQV/pjA/NcKBYXynHGhchXLBBK+UY2OFN4dwZA+KnejEVyEDH8+U4IDyaSKqyXtm67VUlAGrBkI26CDcrLgFv3CeOVPL1Pg7pY1g==',s:[0x3dc8952380,0x2fd5e975d9],}})();</script></body>
 </html>
+

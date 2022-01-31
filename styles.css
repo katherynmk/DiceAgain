@@ -9,10 +9,24 @@
   }
 
   h1 {
-    color: #b91f1f;
+    color: #000000;
     font-family: Helvetica, 'Open Sans', Arial, sans-serif;
     font-size: 28px;
     font-weight: bold;
+    }
+
+    h2{
+      color: #f3f3f3;
+    }
+
+    p{
+      font-size: 60px;
+      color: #a01a1a;
+    }
+
+
+    body{
+      background: url( "https://i.ibb.co/Xp8YJMn/falling.gif" ); 
     }
 
 #button{
@@ -27,7 +41,7 @@
 #header {
     border: 1px solid black;
     padding: 50px;
-    background: url("https://i.ibb.co/M8nng0W/background-1.jpg");
+    background: url("https://i.ibb.co/Jdwjr00/roll-dice.gif");
     background-repeat: round;
     text-align: center;
     text-decoration: aqua;
@@ -37,7 +51,9 @@
   .column {
     float: left;
     width: 33.33%;
+    height: 100%;
     text-align: center;
+    
   }
   
   /* Clear floats after the columns */
@@ -45,6 +61,7 @@
     content: "";
     display: table;
     clear: both;
+    
   }
   
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
