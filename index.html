@@ -19,11 +19,16 @@
 
 <head>
     <link rel="stylesheet" href="styles.css">
+  
     <script src="dice.js"></script>
-    <script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+    <script async src='/cdn-cgi/bm/cv/669835187/api.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+  </head> 
 
 <body>
+  <!-- Validated with 2 errors -->
+  <!-- Header to welcome guests with box around it -->
+  <body onload="RollSixSidedDice()">
     <div id="header">
         <h1>Welcome to the Dice Game!</h1>
         </div>
@@ -37,12 +42,12 @@
 
 
             </div>
-
+            <!-- this has the button that rolls dice and changes text in this column -->
             <div class="column">
               <h2>Instructions</h2>
               <p>The player who rolls the higher number will win! Click the button to roll both dice and see who wins!</p>
-              <button type="button" onclick="RollSixSidedDice(); Winner();">Roll Dice</button><br><br>
-
+              <button type="button" autofocus; onclick="RollSixSidedDice(); Winner();">Roll Dice</button><br><br>
+            <!-- button rolls dice, changes text, gets winner, throws confetti -->
             </div>
 
             <div class="column">
@@ -51,6 +56,7 @@
 
 
             </div>
+          </div>
 
 
 
