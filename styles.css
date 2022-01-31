@@ -1,7 +1,7 @@
 #top {
     border: 1px solid black;
     padding: 25px;
-    background: url("https://i.ibb.co/M8nng0W/background-1.jpg");
+    
     background-repeat: round;
     text-align: center;
     text-decoration: aqua;
@@ -16,7 +16,7 @@
     }
 
     h2{
-      color: #f3f3f3;
+      color: #a01a1a;
     }
 
     p{
@@ -26,7 +26,7 @@
 
 
     body{
-      background: url( "https://i.ibb.co/Xp8YJMn/falling.gif" ); 
+      background: url("https://i.ibb.co/J3T2SxN/dice-gif.gif"); 
     }
 
 #button{
@@ -41,7 +41,7 @@
 #header {
     border: 1px solid black;
     padding: 50px;
-    background: url("https://i.ibb.co/Jdwjr00/roll-dice.gif");
+    
     background-repeat: round;
     text-align: center;
     text-decoration: aqua;
