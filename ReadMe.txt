@@ -13,3 +13,4 @@ launch page from index.html
 necessary files:
 index.html
 styles.css
+dice.js
